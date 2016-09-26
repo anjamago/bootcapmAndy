@@ -101,7 +101,7 @@ header{
 /*section 3 cajas  */
 
 .cart{
-border:2px solid red;
+  border:2px solid red;
   width: 333px;
   height: 280px;
   margin: 5px;
@@ -127,6 +127,11 @@ border:2px solid red;
     color:#ffffff;
     text-align: center;
     background-color: #95a6c7;
+
+}
+.information>section{
+  display: block;
+  height: 401px;
 }
 
 .information>p{
@@ -137,4 +142,77 @@ border:2px solid red;
 }
 .information>section>a{
   display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
+.information>section>a>img{
+  width: 330px;
+}
+
+
+.desc-container{
+  display: block;
+    width: 22.7%;
+  position: absolute;
+  font-size: 15px;
+  line-height: 19px;
+  padding-right: 30px;
+  margin: 0;
+  color:white;
+}
+.desc-container>p{
+  display: none;
+  opacity: 0;
+}
+.desc1{
+  height: 30%;
+  background-color: #98a8c5;
+}
+.desc2{
+  height: 30%;
+  background-color: #8d9dbb;
+}
+.sprite{
+  text-align: center;
+}
+#col{
+  float: left;
+  width: 429px;
+}
+.arrow-speech-bubble{
+  border-top: 10px;
+  border-right: 10px;
+}
+.commentary{
+  background: #f3f6ff;
+  text-align: center;
+  position: relative;
+  z-index: 7;
+  overflow: hidden;
+
+}
+.quote {
+    font-family: "stratum-1-web",sans-serif;
+    font-size: 23px;
+    line-height: 28px;
+    color: #778095;
+    margin: 0;
+  }
+.author {
+    display: block;
+    overflow: hidden;
+}
+blockquote{
+  text-align: left;
+  padding: 20px;
+  width: 500px;
+  background-color: white;
+  border-radius: 5px;
+}
+.arrow-speech-bubble{
+  padding-left: 10%; 
+  width: 10px;
+  border-top: 20px solid #fff;
+  border-right: 20px solid transparent;
+
 }
