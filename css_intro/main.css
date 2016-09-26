@@ -76,17 +76,22 @@ header{
 #form-contact{
   margin-top: 50px;
   text-align: center;
+  vertical-align: top;
 }
 /**la damos formato al input de email  **/
 #form-contact>#input-email{
-  width: 300px;
-  height: 30px;
-  border: 2px solid #edf0f6;
-  font-size: 16px;
-  border-radius: 6px 0 0 6px;
-  border-right: 0px;
-  padding:10 20px;
-  vertical-align:top;
+  background-color: #fff;
+    border: 2px solid #e4e9ee;
+    border-radius: 6px 0 0 6px;
+    border-right: 0;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    height: 26px;
+    padding: 10px 25px;
+    width: 274px;
+    position: relative;
+    margin-bottom: 10px;
+  left: 4px;
 }
 #form-contact>#input-button{
   background-color: #8e74c5;
@@ -101,7 +106,7 @@ header{
 /*section 3 cajas  */
 
 .cart{
-  border:2px solid red;
+
   width: 333px;
   height: 280px;
   margin: 5px;
@@ -135,6 +140,7 @@ header{
 }
 
 .information>p{
+
   width: 760px;
   margin: 24px auto 68px;
   line-height: 24px;
@@ -183,7 +189,11 @@ header{
   border-top: 10px;
   border-right: 10px;
 }
+.commentary>#col{
+  margin-left: 10%;
+}
 .commentary{
+  color:#5b657c;
   background: #f3f6ff;
   text-align: center;
   position: relative;
@@ -192,15 +202,32 @@ header{
 
 }
 .quote {
-    font-family: "stratum-1-web",sans-serif;
-    font-size: 23px;
+    font-family: "Raleway",sans-serif;
+    font-size: 20px;
     line-height: 28px;
     color: #778095;
     margin: 0;
   }
+.quote-date{
+    font-weight: bold;
+    font-size: 11px;
+    margin: 17px 0 27px;
+    text-transform: uppercase;
+    color: #a2adc6;
+  }
+.author>img {
+    width: 54px;
+    height: 54px;
+    border-radius: 99px;
+    float: left;
+  }
 .author {
     display: block;
     overflow: hidden;
+}
+
+.author>.author-info>.handle{
+    color: #31bdeb;
 }
 blockquote{
   text-align: left;
@@ -208,11 +235,39 @@ blockquote{
   width: 500px;
   background-color: white;
   border-radius: 5px;
+  border: 1px solid #d7dcee;
 }
-.arrow-speech-bubble{
-  padding-left: 10%; 
-  width: 10px;
-  border-top: 20px solid #fff;
-  border-right: 20px solid transparent;
+.subtle-animation{
 
+  height: 434px;
+  width: 80%;
+  position: relative;
+  bottom: 0;
+  margin-left: -533px;
+  left: 50%;
+}
+.left-home {
+    background: url(https://cdn.mxpnl.com/cache/bea828089c471b79294582f373e35ae7/images/homepage/2013/heroes/segmentation/lines-and-circles-left.png);
+    width: 444px;
+    height: 278px;
+    position: absolute;
+    top: 73px;
+    left: 60px;
+    z-index: 4;
+  }
+  .right-home{
+    background: url(https://cdn.mxpnl.com/cache/36a1d23381f5863486a30b85d91b112d/images/homepage/2013/heroes/segmentation/lines-and-circles-right.png);
+    width: 429px;
+    height: 313px;
+    position: absolute;
+    top: 73px;
+    left: 578px;
+      z-index: 4;
+  }
+.dude{
+  position: absolute;
+  float: none;
+  z-index: 1;
+  bottom: 0px;
+  left: 40%;
 }
